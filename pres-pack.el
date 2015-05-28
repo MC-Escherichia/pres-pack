@@ -3,7 +3,8 @@
 ;;; Commentary:
 
 ;;; Code:
-
+(install-packages-pack/install-pack 'use-package)
+(require 'use-package)
 (use-package ox-reveal
   :defer 4
   :config
